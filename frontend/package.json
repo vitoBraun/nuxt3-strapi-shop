@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nuxt": "^3.4.1",
+    "nuxt-icon": "^0.4.0"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "import": "^0.0.6",
+    "material-design-icons-iconfont": "^6.7.0",
+    "pg": "^8.10.0",
+    "sass": "^1.62.1",
+    "sequelize": "^6.31.1",
+    "vuetify": "^3.2.2"
+  }
+}
