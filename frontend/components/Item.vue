@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto my-10" max-width="360" height="450">
+  <v-card class="mx-auto my-10" width="360" height="400">
     <v-carousel height="230">
       <v-carousel-item
         v-for="(image, index) in images"
