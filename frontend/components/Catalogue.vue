@@ -27,10 +27,12 @@
 <script lang="ts" setup>
 import useItems from "~/hooks/items";
 
+const category = ref(null);
+
 const getUrls = (item: any) =>
   item.attributes.images.data.map(
     (img: any) => `http://localhost:1337${img.attributes.url}`
   );
 
-const items: any = useItems();
+const { items, refresh } = useItems("sd");
 </script>

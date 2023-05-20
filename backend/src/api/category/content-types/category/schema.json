@@ -19,6 +19,12 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "items": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::item.item",
+      "inversedBy": "categories"
     }
   }
 }
